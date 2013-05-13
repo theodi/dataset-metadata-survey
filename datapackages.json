@@ -1,0 +1,49 @@
+{
+  "name":"Metadata standards",
+  "description":"An exploration of the metadata standards that are in use across the web",
+  "licenses": [
+    {
+    "id": "odbl",
+    "url": "http://opendatacommons.org/licenses/odbl/"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "Open Data Institute",
+      "web": "http://www.theodi.org"
+    }
+  ],
+  "keywords":[
+    "Open Data",
+    "Metadata",
+    "Linked Data",
+    "DCAT",
+    "Schema.org",
+    "Datapackages"
+  ],
+  "resources": [
+    {
+      "path": "metadata.csv",
+      "schema": {
+        "fields": [
+          {
+            "id" "Description",
+            "type": "text"
+          },
+          {
+            "id" "Schema.org",
+            "type": "text"
+          },
+          {
+            "id" "DCAT",
+            "type": "text"
+          },
+          {
+            "id" "Datapackages",
+            "type": "text"
+          }
+        ]
+      }
+    }
+  ]
+}

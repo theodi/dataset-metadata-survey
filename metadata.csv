@@ -1,0 +1,30 @@
+Description,Schema.org,DCAT,Datapackages
+Name,sdo:name,dcterms:title,name
+Description,sdo:description,dcterms:description,
+URL,sdo:url,foaf:homepage,url
+Organisation,sdo:Organization,foaf:Organization,
+Publisher,sdo:publisher,dcterms:publisher,publisher
+Availability,,,
+Copyright statement,,,
+Data Catalogue,sdo:DataCatalog,dcat:Catalog,
+Data type,,,
+Dataset,sdo:Dataset,dcat:Dataset,
+Date published,sdo:datePublished,dcterms:issued,
+Date updated,sdo:dateModified,dcterms:modified,last_modified
+Discussion URL,,,
+Format,sdo:encodingFormat,dct:format,format / mimetype
+ID,,dcterms:identifier,id
+Keywords,sdo:keywords,dcat:keyword,keywords
+Licence,,dcterms:license,licences
+Provenance,,dct:provenance,
+Quality control process URL,,,
+Quality issues URL,,,
+Size,,dcat:byteSize,
+Spatial coverage,sdo:spatialCoverage,dcterms:spatial,
+Subject,,foaf:primaryTopic,
+Temporal Coverage,sdo:temporalCoverage,dcterms:temporal,
+Tools URL,,,
+Type of release,,,
+Update frequency,,dcat:accrualPeriodicity,
+Verification process URL,,,
+Version,sdo:version,,version
