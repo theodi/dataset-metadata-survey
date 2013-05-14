@@ -27,24 +27,16 @@
       "schema": {
         "fields": [
           {
-<<<<<<< HEAD
             "id": "Concept",
-=======
-            "id": "Description",
->>>>>>> 75ce5a7cbff5ba4fd269db39d60efcb7ea1484e1
             "type": "text"
           },
           {
             "id": "Schema.org",
-<<<<<<< HEAD
             "description": "As defined at http://www.w3.org/wiki/WebSchemas/Datasets",
-=======
->>>>>>> 75ce5a7cbff5ba4fd269db39d60efcb7ea1484e1
             "type": "text"
           },
           {
             "id": "DCAT",
-<<<<<<< HEAD
             "description": "As defined at http://www.w3.org/TR/vocab-dcat/",
             "type": "text"
           },
@@ -61,12 +53,10 @@
           {
             "id": "Datapackages",
             "description":"As defined at http://www.dataprotocols.org/en/latest/data-packages.html"
-=======
             "type": "text"
           },
           {
             "id": "Datapackages",
->>>>>>> 75ce5a7cbff5ba4fd269db39d60efcb7ea1484e1
             "type": "text"
           }
         ]
