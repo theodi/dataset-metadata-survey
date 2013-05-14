@@ -52,7 +52,7 @@
           },
           {
             "id": "Datapackages",
-            "description":"As defined at http://www.dataprotocols.org/en/latest/data-packages.html"
+            "description":"As defined at http://www.dataprotocols.org/en/latest/data-packages.html",
             "type": "text"
           },
           {
