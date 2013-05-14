@@ -27,19 +27,19 @@
       "schema": {
         "fields": [
           {
-            "id" "Description",
+            "id": "Description",
             "type": "text"
           },
           {
-            "id" "Schema.org",
+            "id": "Schema.org",
             "type": "text"
           },
           {
-            "id" "DCAT",
+            "id": "DCAT",
             "type": "text"
           },
           {
-            "id" "Datapackages",
+            "id": "Datapackages",
             "type": "text"
           }
         ]
