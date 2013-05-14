@@ -27,19 +27,32 @@
       "schema": {
         "fields": [
           {
-            "id" "Description",
+            "id": "Concept",
             "type": "text"
           },
           {
-            "id" "Schema.org",
+            "id": "Schema.org",
+            "description": "As defined at http://www.w3.org/wiki/WebSchemas/Datasets",
             "type": "text"
           },
           {
-            "id" "DCAT",
+            "id": "DCAT",
+            "description": "As defined at http://www.w3.org/TR/vocab-dcat/",
             "type": "text"
           },
           {
-            "id" "Datapackages",
+            "id": "ADMS",
+            "description": "As defined at http://www.w3.org/ns/adms",
+            "type": "text"
+          },
+          {
+            "id": "VoID",
+            "description": "As defined at http://www.w3.org/TR/void/",
+            "type": "text"
+          },
+          {
+            "id": "Datapackages",
+            "description":"As defined at http://www.dataprotocols.org/en/latest/data-packages.html"
             "type": "text"
           }
         ]
