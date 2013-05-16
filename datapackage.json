@@ -67,6 +67,41 @@
           }
         ]
       }
+    }, 
+    {
+      "path": "datastores.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "Catalogue name",
+            "description": "Name of the data catalogue",
+            "type": "text"
+          },
+          {
+            "id": "URI",
+            "description": "URI of the catalogue",
+            "type": "text"
+          },
+          {
+            "id": "Vocabulary(s) used",
+            "description": "Which vocabularies are used (if any) for metadata",
+            "type": "text"
+          },
+          {
+            "id": "Example resource",
+            "type": "text"
+          },
+          {
+            "id": "Access method",
+            "description": "How the metadata is accessed (i.e. in the header, or via an API)",
+            "type": "text"
+          },
+          {
+            "id": "Notes",
+            "type": "text"
+          }
+        ]
+      }
     }
   ]
 }
