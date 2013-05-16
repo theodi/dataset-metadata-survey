@@ -5,9 +5,9 @@ Organisation (owner),Yes,ownership,sdo:Organization,foaf:Organization,,,
 Publisher,Yes,publisher,sdo:publisher,dcterms:publisher,dcterms:publisher,,publisher
 Author,,,,,,,
 Author Email,,,,,,,
-Maintainer,,,,,,,
-Maintainer Email,,,,,,,
-Unique identifier,,,,dcterms:identifier,,,id
+Maintainer,,,,,,,maintainers['name']
+Maintainer Email,,,,,,,maintainers['email']
+Unique identifier,,,,dcterms:identifier,,,
 Release date,,,sdo:datePublished,dcterms:issued,dcterms:created,,
 Modified,,,sdo:dateModified,dcterms:modified,dcterms:modified,,last_modified
 Last updated,,,,,,,
@@ -36,11 +36,11 @@ Temporal and spatial comparability,,,,,,,
 Periodicity of data dissemination,,,,,,,
 Data quality,Yes,qualityUrl,,dcat:dataQuality,,,
 Documentation URL,Yes,documentationUrl,,dcat:dataDictionary ,,,
-Licence,Yes,dataLicence / contentLicence,,dcterms:license,,,licences
+Licence,Yes,dataLicence / contentLicence,,dcterms:license,,,licenses
 Copyright,Yes,copyrightURL,sdo:copyrightHolder,,,,
 Size,,,sdo:contentSize,dcat:size,,,
-URL,Yes,datasetUrl,sdo:contentUrl,dcat:accessURL,adms:accessURL,,url
-Format ,Yes,documentFormat / statisticalFormat / geographicFormat / structuredFormat,sdo:encodingFormat,dcterms:format,dcterms:format,,format / mimetype
+URL,Yes,datasetUrl,sdo:contentUrl,dcat:accessURL,adms:accessURL,,
+Format ,Yes,documentFormat / statisticalFormat / geographicFormat / structuredFormat,sdo:encodingFormat,dcterms:format,dcterms:format,,format / mimetype / encoding / dialect
 Language,,,sdo:inLanguage,dcterms:language,dcterms:language,,
 Table title,Yes,listed,ds:DataCatalog,dcat:Catalog,adms:SemanticAssetRepository,,
 Alternative title,,,ds:DataDownload,dcat:Download,adms:SemanticAssetDistribution,,
@@ -50,7 +50,7 @@ Group,,,ds:catalog,,dcterms:isPartOf,,
 Section,,,,,,,
 Dataset,,,ds:dataset,dcat:dataset,dcterms:hasPart,,
 Resource,,,,,,,
-Number of Datasets,,,ds:distribution,dcat:distribution,radion:distribution,void:dataDump,
+Number of Datasets,,,ds:distribution,dcat:distribution,radion:distribution,void:dataDump,resources
 Type,,,,,,,
 Documented since,,,,,,,
 Theme,,,sdo:about,dcat:theme,dcterms:subject,,
@@ -177,8 +177,9 @@ Publisher URL,Yes,publisherURL,,,,,
 Publisher Rights,Yes,publisherRights,,,,,
 Origin,Yes,thirdPartyOrigin,,,,,
 Crowdsourced,Yes,crowdsourced,,,,,
+Contributors,,,,,,,contributors
 Contributor Licence Agreement,Yes,claUrl,,,,,
-Provenance,Yes,SourceDocumentationUrl / provenance,,dct:provenance,,,
+Provenance,Yes,SourceDocumentationUrl / provenance,,dct:provenance,,,sources
 Provenance Metadata,Yes,SourceDocumentationMetadata / digitalCertificate,,,,,
 Database rights waiver,Yes,dataWaiver,,,,,
 Content Licence waiver,Yes,contentWaiver,,,,,
