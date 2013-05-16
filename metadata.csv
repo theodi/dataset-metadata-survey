@@ -1,7 +1,7 @@
 Concept,Required for certificate?,Relates to question,Schema.org,DCAT,ADMS,VoID,CKAN API,Link Headers,HTML link/meta,RDFa,microdata,Datapackage,DSPL
 Person (contact),No,,sdo:Person,foaf:Person,,,author,,,,,,
 Contact Email,Yes,contactEmail,,,,,author_email,,,,,,
-Organisation (owner),Yes,ownership,sdo:Organization,foaf:Organization,,,,,,,,,
+Organisation (owner),Yes,ownership,sdo:Organization,foaf:Organization,,,,,,,,,/provider/name
 Publisher,Yes,publisher,sdo:publisher,dcterms:publisher,dcterms:publisher,,,,,,,publisher,
 Author,No,,,,,,,,,,,,
 Author Email,No,,,,,,,,,,,,
@@ -11,14 +11,14 @@ Unique identifier,No,,,dcterms:identifier,,,id,,,,,,
 Release date,No,,sdo:datePublished,dcterms:issued,dcterms:created,,,,,,,,
 Modified,No,,sdo:dateModified,dcterms:modified,dcterms:modified,,revision_timestamp,,,,,last_modified,
 Last updated,No,,,,,,,,,,,,
-Description,No,,sdo:description,dcterms:description,dcterms:description,,,,,,,description,
+Description,No,,sdo:description,dcterms:description,dcterms:description,,,,,,,description,/info/description/value
 Keyword,No,,sdo:keywords,dcat:keyword,radion:keyword,,tags,,,,,keywords,
 Frequency of update,Yes,FrequentSeriesPublication / dumpFrequency,,dct:accrualPeriodicity,,,,,,,,,
 Title (machine-readable),?,,,,,,name,,,,,,
-Title (human-readable),Yes,dataTitle,sdo:name,dcterms:title,rdfs:label,,title,,,,,name,
+Title (human-readable),Yes,dataTitle,sdo:name,dcterms:title,rdfs:label,,title,,,,,name,/info/name/value
 Spatial coverage,No,,ds:spatialCoverage,dcterms:spatial,dcterms:spatial,,spatial,,,,,,
 Spatial type,No,,,,,,spatial,,,,,,
-Spatial coordinates,No,,,,,,spatial,,,,,,
+Spatial coordinates,No,,,,,,spatial,,,,,,/concepts/concept[extends='geo:location']
 Geographic Region Name,No,,,,,,spatial-text|spatial-uri,,,,,,
 Geographic Bounding Box - Lower Left Corner  ,No,,,,,,spatial,,,,,,
 Bounding Box - Upper Right Corner  ,No,,,,,,spatial,,,,,,
@@ -39,7 +39,7 @@ Data quality,Yes,qualityUrl,,dcat:dataQuality,,,,,,,,,
 Documentation URL,Yes,documentationUrl,,dcat:dataDictionary ,,,,,,,,,
 Licence,Yes,dataLicence / contentLicence,,dcterms:license,,,license_id,,,,,licenses,
 Copyright,Yes,copyrightURL,sdo:copyrightHolder,,,,,,,,,,
-URL,Yes,datasetUrl,sdo:contentUrl,dcat:accessURL,adms:accessURL,,url,,,,,,
+URL,Yes,datasetUrl,sdo:contentUrl,dcat:accessURL,adms:accessURL,,url,,,,,,/info/url/value
 Format ,Yes,documentFormat / statisticalFormat / geographicFormat / structuredFormat,sdo:encodingFormat,dcterms:format,dcterms:format,,resources/format,,,,,resources/(format|mimetype|encoding|dialect),
 Language,No,,sdo:inLanguage,dcterms:language,dcterms:language,,,,,,,,
 Table title,Yes,listed,ds:DataCatalog,dcat:Catalog,adms:SemanticAssetRepository,,,,,,,,
