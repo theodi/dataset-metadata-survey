@@ -31,6 +31,16 @@
             "type": "text"
           },
           {
+            "id": "Required for certificate?",
+            "type": "text",
+            "description": "Whether the question can be used to automate parts of the Open Data Certificate"
+          },
+          {
+            "id": "Relates to question",
+            "type": "text",
+            "description": "The ID of the ODC question the concept refers to"
+          },
+          {
             "id": "Schema.org",
             "description": "As defined at http://www.w3.org/wiki/WebSchemas/Datasets",
             "type": "text"
