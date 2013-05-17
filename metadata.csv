@@ -45,7 +45,7 @@ Copyright Metadata,Standard,copyrightStatementMetadata,,,,,,,,,
 URL,Basic,datasetUrl,sdo:contentUrl,dcat:accessURL,adms:accessURL,,url,self,bookmark (a),,/info/url/value
 Format ,Pilot,documentFormat / statisticalFormat / geographicFormat / structuredFormat,sdo:encodingFormat,dcterms:format,dcterms:format,,resources/format,,,resources/(format|mimetype|encoding|dialect),
 Language,No,,sdo:inLanguage,dcterms:language,dcterms:language,,,,,,
-Table title,Standard,listed,ds:DataCatalog,dcat:Catalog,adms:SemanticAssetRepository,,,,,,
+Table title,Standard,Listed / listing,ds:DataCatalog,dcat:Catalog,adms:SemanticAssetRepository,,,,,,
 Alternative title,No,,ds:DataDownload,dcat:Download,adms:SemanticAssetDistribution,,,,,,
 Statistics,No,,ds:Dataset,dcat:Dataset,adms:SemanticAsset,void:Dataset,,,,,
 Type of data collection,No,,,,,,,,,,
