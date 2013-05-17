@@ -1,0 +1,16 @@
+Catalogue name,URI,Vocabulary(s) used,Example resource,Access method,Notes
+Data.gov.uk,http://data.gov.uk,DCAT,http://data.gov.uk/dataset/staff-organograms-and-pay-defra,HTML header,
+Ordnance Survey Data (Beta),http://beta.data.ordnancesurvey.co.uk,DCAT,http://beta.data.ordnancesurvey.co.uk/datasets/code-point-open,HTML header,
+Data GM,http://www.datagm.org.uk/,CKAN API,http://www.datagm.org.uk/package/cycle-lockers-locations,Via CKAN API,
+London Datastore,http://data.london.gov.uk/,None,http://data.london.gov.uk/datastore/package/redbridge-planning-development-control,,Metadata for all datasets is exposed at http://data.london.gov.uk/catalogue but not a standard vocabulary
+Open Data Communities,http://opendatacommunities.org/,DCAT,http://opendatacommunities.org/data/administrative-geography,HTTP Accept header,
+Data.gov,https://data.gov/,Open Graph,https://explore.data.gov/Geography-and-Environment/Worldwide-M1-Earthquakes-Past-7-Days/7tag-iwnu,In HTML Head,Uses Open Graph (http://ogp.me/) - which is pretty limited
+World Bank Data,http://data.worldbank.org/,None,http://data.worldbank.org/indicator/SH.DYN.MORT/countries/1W?display=graph,,
+Factual,http://www.factual.com,None,http://www.factual.com/data/t/places,,
+Infochimps,http://www.infochimps.com/datasets,None,http://www.infochimps.com/datasets/twitter-census-developer-tools-mapping-from-twitter-user-search-,,
+Azure Marketplace,http://datamarket.azure.com/,None,http://datamarket.azure.com/dataset/mapmechanics/forgis_points_gb,,
+Import.io,http://import.io/,None,http://import.io/api/geography/bq-store-locator/f55174f6-fb46-4bee-b4f9-d6d40b4df810,,
+Amazon Public Datasets,http://aws.amazon.com/datasets,None,http://aws.amazon.com/datasets/3448202235644016,,
+Scraperwiki,https://scraperwiki.com,None,https://scraperwiki.com/scrapers/birmingham_food_safety_inspections/,,
+Redbridge Data,http://data.redbridge.gov.uk/,None,http://data.redbridge.gov.uk/View/employees/senior-staff-salaries,,
+Google public datasets,http://www.google.co.uk/publicdata,None,http://www.google.co.uk/publicdata/explore?ds=z8o7pt6rd5uqa6_,,
