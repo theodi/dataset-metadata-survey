@@ -1,12 +1,23 @@
-<html xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#">
+<html xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:org="http://www.w3.org/ns/org#">
 <head>
   <title>Example RDFa</title>
 </head>
 <body>
   <div typeof="dcat:Dataset" about="http://data.gov.uk/dataset/defence-infrastructure-organisation-disposals-database-house-of-commons-report"> 
     <h1 property="dct:title">Defence Infrastructure Organisation Disposals Database House of Commons Report</h1>
+    
     <p property="dct:description">MoD present and future disposal properties that are in the public domain that is provided for reference in the House of Commons library</p>
+    
     <h2>Licence</h2>
-     <a href="http://reference.data.gov.uk/id/open-government-licence" rel="dc:rights" property="dct:rights">UK Open Government Licence (OGL)</a>
+    <a href="http://reference.data.gov.uk/id/open-government-licence" rel="dct:rights" property="dct:rights">UK Open Government Licence (OGL)</a>
+    
+    <div rel="publisher">
+      <h2>Publisher</h2>
+      <div typeof="org:Organization" about="http://data.gov.uk/publisher/defence-infrastructure-organisation">
+        <a href="http://data.gov.uk/publisher/defence-infrastructure-organisation"><span property="foaf:name">Defence Infrastructure Organisation</span></a>
+        <a href="mailto:DIO SEC-Groupmailbox@mod.uk" property="foaf:mbox">DIO SEC-Groupmailbox@mod.uk</a>
+      </div>
+    </div>
+    
   </div>
 </body>
