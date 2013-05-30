@@ -1,69 +1,12 @@
-<html>
+<html xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#">
 <head>
   <title>Example RDFa</title>
 </head>
 <body>
-  <div vocab="http://schema.org/" prefix="dcat: http://www.w3.org/ns/dcat#" typeof="Dataset dcat:Dataset"
-       about="http://example.org/datasets/seismic-hazard-zones">
-
-      <meta property="url" content="http://www.example.org/story.php?title=seismic-hazard-zones"/>
-
-      <span property="name"><b><a href="http://www.example.org/story.php?title=seismic-hazard-zones">Seismic Hazard Zones</a></b></span>
-
-      (<span property="temporalCoverage">2011</span>, version "2011-Sep-13")
-
-      <div property="description">This is a dataset of liquefaction and landslide zones in the state of California.</div>
-
-      <div rel="spatialCoverage" resource="http://dbpedia.org/resource/United_States"><i>Country:</i>
-          <a href="http://dbpedia.org/resource/United_States">
-              <span about="http://dbpedia.org/resource/United_States" typeof="Country">
-                  <span property="name">United States</span>
-              </span>
-          </a>
-      </div>
-
-      <div rel="publisher"><i>Publisher:</i>
-          <span typeof="Organization">
-              <span property="name">Department of Technology</span>
-  	    (<span property="email">dot at example dot org</span>)
-          </span>
-      </div>
-
-      <div><i>Topics:</i>
-          <span rel="about" resource="http://dbpedia.org/resource/Seismic_hazard">
-              <a href="http://en.wikipedia.org/wiki/Seismic_hazard">
-                  <span property="name">seismic hazard</span></a>
-          </span>
-      </div>
-
-      <div><i>Keywords:</i>
-          <span property="keyword">layers</span>,
-          <span property="keyword">geography</span>,
-          <span property="keyword">maps</span>,
-          <span property="keyword">gis</span>
-      </div>
-
-      <div rel="license"><i>License:</i>
-      	<a href="http://opendatacommons.org/licenses/pddl/1.0/">
-  	<span typeof="Webpage">
-  	    <span property="name">ODC Public Domain Dedication and Licence (PDDL)</span>
-  	    <meta property="url" content="http://opendatacommons.org/licenses/pddl/1.0/"/>
-  	</span>
-  	</a>
-      </div>
-  
-      <div rel="distribution"><i>Download:</i>
-          <a href="http://example.org/downloads/seismic-hazard-zones.nt.gz">
-          <span typeof="DataDownload">
-              <meta property="encodingFormat" content="text/plain" />
-              <meta property="contentUrl" content="http://example.org/downloads/seismic-hazard-zones.nt.gz" />
-              <meta property="inLanguage" content="en" />
-              <span property="description">compressed N-Triples dump</span>,
-              <meta property="datePublished" content="2011-08-12">August 12, 2011</meta>
-              <meta property="contentSize" content="13.9">(13.97MB)</span>
-  	</span>
-  	</a>
-      </div>
-
+  <div typeof="dcat:Dataset" about="http://data.gov.uk/dataset/defence-infrastructure-organisation-disposals-database-house-of-commons-report"> 
+    <h1 property="dct:title">Defence Infrastructure Organisation Disposals Database House of Commons Report</h1>
+    <p property="dct:description">MoD present and future disposal properties that are in the public domain that is provided for reference in the House of Commons library</p>
+    <h2>Licence</h2>
+     <a href="http://reference.data.gov.uk/id/open-government-licence" rel="dc:rights" property="dct:rights">UK Open Government Licence (OGL)</a>
   </div>
 </body>
